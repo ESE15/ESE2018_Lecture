@@ -34,6 +34,7 @@ int main(void){
 	postprocess();
 	clear();
 	
+	printf("Good bye Marco \n\n\n");
 	return 0;
 }
 	
