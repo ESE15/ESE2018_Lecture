@@ -3,4 +3,5 @@
 
 void func1(){
 	printf("hi there\n");
+	printf("bye there\n");
 }
