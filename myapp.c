@@ -10,6 +10,10 @@ void turbo_off(){
 	printf("turbo off\n");
 }
 
+void clear(){
+	printf("clear \n");
+}
+
 int main(void){
 	
 	turbo_on();
@@ -18,6 +22,8 @@ int main(void){
 	func2();
 	
 	turbo_off();
+
+	clear();
 	
 	return 0;
 }
