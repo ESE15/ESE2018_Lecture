@@ -6,7 +6,12 @@ void preprocess(){
 	printf("do some preprecessing\n");
 }
 
+void postprocess(){
+	printf("do some postprocessing\n");
+}
+
 int main(void){
+	postprocess();
 	func1();
 
 	preprocess();
